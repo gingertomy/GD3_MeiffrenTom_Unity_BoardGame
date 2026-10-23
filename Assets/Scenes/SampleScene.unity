@@ -119,76 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &522362
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 522365}
-  - component: {fileID: 522364}
-  - component: {fileID: 522363}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &522363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 522362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ab291c32d097484a9dec703597d901d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Board
-  cells:
-  - {fileID: 1541244975}
-  - {fileID: 1125346435}
-  - {fileID: 400002725}
-  - {fileID: 1020531363}
-  - {fileID: 1187142235}
-  - {fileID: 1209665947}
-  - {fileID: 185282091}
-  - {fileID: 1008761786}
-  - {fileID: 577495164}
-  - {fileID: 1678282968}
-  - {fileID: 1325510785}
-  - {fileID: 497667497}
---- !u!114 &522364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 522362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b305810fd75eb4418308f58d2355dfa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Dices
---- !u!4 &522365
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 522362}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.64418, y: 0.51596, z: -0.5291}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &20776892
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,7 +263,7 @@ MonoBehaviour:
   - {fileID: 1325510780}
   - {fileID: 497667492}
   dice: {fileID: 20776898}
-  high: 0.7
+  high: 0.75
   moveTime: 1
 --- !u!114 &20776898
 MonoBehaviour:
@@ -472,7 +402,6 @@ GameObject:
   - component: {fileID: 185282089}
   - component: {fileID: 185282088}
   - component: {fileID: 185282087}
-  - component: {fileID: 185282091}
   m_Layer: 0
   m_Name: Slot7
   m_TagString: Bonus
@@ -573,18 +502,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &185282091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 185282086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1551a9aa252aaa46ab81e35365e4b46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Cell
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,7 +651,6 @@ GameObject:
   - component: {fileID: 400002723}
   - component: {fileID: 400002722}
   - component: {fileID: 400002721}
-  - component: {fileID: 400002725}
   m_Layer: 0
   m_Name: Slot3
   m_TagString: Bonus
@@ -835,18 +751,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &400002725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 400002720}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1551a9aa252aaa46ab81e35365e4b46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Cell
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -986,7 +890,6 @@ GameObject:
   - component: {fileID: 497667495}
   - component: {fileID: 497667494}
   - component: {fileID: 497667493}
-  - component: {fileID: 497667497}
   m_Layer: 0
   m_Name: Slot12
   m_TagString: Untagged
@@ -1087,18 +990,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &497667497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 497667492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1551a9aa252aaa46ab81e35365e4b46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Cell
 --- !u!1 &577495159
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,7 +1002,6 @@ GameObject:
   - component: {fileID: 577495162}
   - component: {fileID: 577495161}
   - component: {fileID: 577495160}
-  - component: {fileID: 577495164}
   m_Layer: 0
   m_Name: Slot9
   m_TagString: Untagged
@@ -1212,18 +1102,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &577495164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 577495159}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1551a9aa252aaa46ab81e35365e4b46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Cell
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1285,7 +1163,6 @@ GameObject:
   - component: {fileID: 1008761784}
   - component: {fileID: 1008761783}
   - component: {fileID: 1008761782}
-  - component: {fileID: 1008761786}
   m_Layer: 0
   m_Name: Slot8
   m_TagString: Untagged
@@ -1386,18 +1263,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &1008761786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1008761781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1551a9aa252aaa46ab81e35365e4b46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Cell
 --- !u!1 &1020531358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1410,7 +1275,6 @@ GameObject:
   - component: {fileID: 1020531361}
   - component: {fileID: 1020531360}
   - component: {fileID: 1020531359}
-  - component: {fileID: 1020531363}
   m_Layer: 0
   m_Name: Slot4
   m_TagString: Untagged
@@ -1511,18 +1375,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &1020531363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1020531358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1551a9aa252aaa46ab81e35365e4b46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Cell
 --- !u!1 &1125346430
 GameObject:
   m_ObjectHideFlags: 0
@@ -1535,7 +1387,6 @@ GameObject:
   - component: {fileID: 1125346433}
   - component: {fileID: 1125346432}
   - component: {fileID: 1125346431}
-  - component: {fileID: 1125346435}
   m_Layer: 0
   m_Name: Slot2
   m_TagString: Untagged
@@ -1636,18 +1487,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &1125346435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125346430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1551a9aa252aaa46ab81e35365e4b46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Cell
 --- !u!1 &1187142230
 GameObject:
   m_ObjectHideFlags: 0
@@ -1660,7 +1499,6 @@ GameObject:
   - component: {fileID: 1187142233}
   - component: {fileID: 1187142232}
   - component: {fileID: 1187142231}
-  - component: {fileID: 1187142235}
   m_Layer: 0
   m_Name: Slot5
   m_TagString: Untagged
@@ -1761,18 +1599,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &1187142235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187142230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1551a9aa252aaa46ab81e35365e4b46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Cell
 --- !u!1 &1209665942
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,7 +1611,6 @@ GameObject:
   - component: {fileID: 1209665945}
   - component: {fileID: 1209665944}
   - component: {fileID: 1209665943}
-  - component: {fileID: 1209665947}
   m_Layer: 0
   m_Name: Slot6
   m_TagString: Malus
@@ -1886,18 +1711,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &1209665947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1209665942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1551a9aa252aaa46ab81e35365e4b46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Cell
 --- !u!1 &1325510780
 GameObject:
   m_ObjectHideFlags: 0
@@ -1910,7 +1723,6 @@ GameObject:
   - component: {fileID: 1325510783}
   - component: {fileID: 1325510782}
   - component: {fileID: 1325510781}
-  - component: {fileID: 1325510785}
   m_Layer: 0
   m_Name: Slot11
   m_TagString: Malus
@@ -2011,18 +1823,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &1325510785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325510780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1551a9aa252aaa46ab81e35365e4b46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Cell
 --- !u!1 &1541244970
 GameObject:
   m_ObjectHideFlags: 0
@@ -2035,7 +1835,6 @@ GameObject:
   - component: {fileID: 1541244973}
   - component: {fileID: 1541244972}
   - component: {fileID: 1541244971}
-  - component: {fileID: 1541244975}
   m_Layer: 0
   m_Name: Slot1
   m_TagString: Untagged
@@ -2136,18 +1935,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &1541244975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1541244970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1551a9aa252aaa46ab81e35365e4b46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Cell
 --- !u!1 &1678282963
 GameObject:
   m_ObjectHideFlags: 0
@@ -2160,7 +1947,6 @@ GameObject:
   - component: {fileID: 1678282966}
   - component: {fileID: 1678282965}
   - component: {fileID: 1678282964}
-  - component: {fileID: 1678282968}
   m_Layer: 0
   m_Name: Slot10
   m_TagString: Untagged
@@ -2261,18 +2047,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &1678282968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1678282963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1551a9aa252aaa46ab81e35365e4b46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Cell
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2293,4 +2067,3 @@ SceneRoots:
   - {fileID: 1325510784}
   - {fileID: 497667496}
   - {fileID: 20776896}
-  - {fileID: 522365}
